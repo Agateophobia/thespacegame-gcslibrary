@@ -1,0 +1,193 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "EdETf3ufBqRgcPQxf",
+			"description": "Money",
+			"tags": [
+				"Money"
+			],
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eXV63BgL07n1afZdB",
+					"description": "Paper",
+					"tags": [
+						"Money"
+					],
+					"base_value": "1",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 1,
+						"extended_value": 1,
+						"weight": "0 lb",
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 1,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "EBlgJg58ORCATre90",
+			"description": "Standard Pattern Equipment",
+			"tags": [
+				"Standard Issue"
+			],
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "eFeuVP3lqzCUa2MI6",
+					"description": "Standard Pattern Jumpsuit",
+					"local_notes": "Flexible.",
+					"tech_level": "9",
+					"tags": [
+						"Defenses",
+						"Standard Pattern"
+					],
+					"base_value": "1000",
+					"base_weight": "8",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"arm",
+								"groin",
+								"leg",
+								"torso",
+								"vitals"
+							],
+							"amount": 6
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 1000,
+						"extended_value": 1000,
+						"weight": "8 lb",
+						"extended_weight": "8 lb"
+					}
+				},
+				{
+					"id": "e7P_0f4L_zR_I8dz_",
+					"description": "Standard Pattern Boots",
+					"local_notes": "DR+4 to toes.",
+					"tech_level": "9",
+					"tags": [
+						"Defenses",
+						"Standard Pattern"
+					],
+					"base_value": "250",
+					"base_weight": "4 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"foot"
+							],
+							"amount": 6
+						},
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"foot"
+							],
+							"specialization": "To toes",
+							"amount": -4
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 250,
+						"extended_value": 250,
+						"weight": "4 lb",
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "eDOQ26FMZvrLsVzpa",
+					"description": "Standard Pattern Vacc Suit",
+					"local_notes": "24h of Power",
+					"tech_level": "9",
+					"tags": [
+						"Armor",
+						"Defenses",
+						"Standard Pattern"
+					],
+					"base_value": "10000",
+					"base_weight": "25 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"arm",
+								"foot",
+								"groin",
+								"hand",
+								"leg",
+								"neck",
+								"torso",
+								"vitals"
+							],
+							"amount": 8
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 10000,
+						"extended_value": 10000,
+						"weight": "25 lb",
+						"extended_weight": "25 lb"
+					}
+				},
+				{
+					"id": "e5G8fXIIk95Klhypu",
+					"description": "Standard Pattern Vacc Suit Helmet",
+					"tech_level": "9",
+					"tags": [
+						"Armor",
+						"Defenses",
+						"Standard Pattern"
+					],
+					"base_value": "2500",
+					"base_weight": "5 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"eye",
+								"face",
+								"skull"
+							],
+							"amount": 8
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 2500,
+						"extended_value": 2500,
+						"weight": "5 lb",
+						"extended_weight": "5 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 13750,
+				"weight": "0 lb",
+				"extended_weight": "42 lb"
+			}
+		}
+	]
+}
