@@ -2,100 +2,7 @@
 	"version": 5,
 	"rows": [
 		{
-			"id": "s9OO46oravr0JTN6V",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sb6LoqgrQgzKvzHH2"
-			},
-			"name": "Biology",
-			"reference": "B180",
-			"tags": [
-				"Natural Science",
-				"Plant"
-			],
-			"replacements": {
-				"Specialty": "Witchspace Drive"
-			},
-			"specialization": "Witchspace Drive",
-			"difficulty": "iq/vh",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Naturalist",
-					"modifier": -6
-				}
-			],
-			"tech_level": "9",
-			"points": 1,
-			"defaulted_from": {
-				"type": "iq",
-				"modifier": -6,
-				"level": 4,
-				"adjusted_level": 4,
-				"points": -4
-			}
-		},
-		{
-			"id": "sg1rQhVmupD7D9CKq",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sPfyz7_V73fxlVXOS"
-			},
-			"name": "Physiology",
-			"reference": "B213",
-			"tags": [
-				"Medical",
-				"Natural Science"
-			],
-			"replacements": {
-				"Specialty": "Specialty"
-			},
-			"specialization": "Witchspace Drive",
-			"difficulty": "iq/h",
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				},
-				{
-					"type": "skill",
-					"name": "Diagnosis",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Physician",
-					"modifier": -5
-				},
-				{
-					"type": "skill",
-					"name": "Surgery",
-					"modifier": -5
-				}
-			],
-			"tech_level": "9",
-			"points": 1,
-			"defaulted_from": {
-				"type": "iq",
-				"modifier": -6,
-				"level": 4,
-				"adjusted_level": 4,
-				"points": -4
-			}
-		},
-		{
 			"id": "sd-Gs811Un7rr11c4",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sIGnp4W_M8XBodpEH"
-			},
 			"name": "Hidden Lore",
 			"reference": "B199,MA57",
 			"tags": [
@@ -110,11 +17,6 @@
 		},
 		{
 			"id": "sbmS73-PEQ-GP-y00",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sIGnp4W_M8XBodpEH"
-			},
 			"name": "Hidden Lore",
 			"reference": "B199,MA57",
 			"tags": [
@@ -129,11 +31,6 @@
 		},
 		{
 			"id": "sm-JckJXuQ49wYnsQ",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sRzoU2_LS2s4r51LA"
-			},
 			"name": "History",
 			"reference": "B200",
 			"tags": [
@@ -162,11 +59,6 @@
 		},
 		{
 			"id": "sv-InhEjsxi_h1-yL",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Skills.skl",
-				"id": "sRzoU2_LS2s4r51LA"
-			},
 			"name": "History",
 			"reference": "B200",
 			"tags": [
@@ -192,6 +84,213 @@
 				"adjusted_level": 4,
 				"points": -4
 			}
+		},
+		{
+			"id": "SYaa5f8ofquiyxta0",
+			"name": "Vessel Operations",
+			"children": [
+				{
+					"id": "s9OO46oravr0JTN6V",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sb6LoqgrQgzKvzHH2"
+					},
+					"name": "Biology",
+					"reference": "B180",
+					"tags": [
+						"Natural Science",
+						"Plant"
+					],
+					"replacements": {
+						"Specialty": "Witchspace Drive"
+					},
+					"specialization": "Witchspace Drive",
+					"difficulty": "iq/vh",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Theology",
+							"modifier": -4
+						},
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Naturalist",
+							"modifier": -6
+						}
+					],
+					"tech_level": "9",
+					"points": 1,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -6,
+						"level": 4,
+						"adjusted_level": 4,
+						"points": -4
+					}
+				},
+				{
+					"id": "sg1rQhVmupD7D9CKq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sPfyz7_V73fxlVXOS"
+					},
+					"name": "Physiology",
+					"reference": "B213",
+					"tags": [
+						"Medical",
+						"Natural Science"
+					],
+					"replacements": {
+						"Specialty": "Specialty"
+					},
+					"specialization": "Witchspace Drive",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Theology",
+							"modifier": -4
+						},
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Diagnosis",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Physician",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Surgery",
+							"modifier": -5
+						}
+					],
+					"tech_level": "9",
+					"points": 1,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -6,
+						"level": 4,
+						"adjusted_level": 4,
+						"points": -4
+					}
+				},
+				{
+					"id": "s4CrbukiKY6M9R6MK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "shChZ7cQ-SIe7JKo6"
+					},
+					"name": "Navigation",
+					"reference": "B211",
+					"tags": [
+						"Exploration",
+						"Outdoor",
+						"Technical",
+						"Vehicle"
+					],
+					"replacements": {
+						"Environment": "Witchspace"
+					},
+					"specialization": "Witchspace",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Hidden Lore",
+							"specialization": "Witchspace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Astronomy",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Theology",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Navigation",
+							"specialization": "Space",
+							"modifier": -4
+						}
+					],
+					"tech_level": "9",
+					"points": 1
+				},
+				{
+					"id": "sGp5C_8Ow3H-gSJOJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sQE2t0-gMM5-4KgPb"
+					},
+					"name": "Piloting",
+					"reference": "B214",
+					"tags": [
+						"Vehicle"
+					],
+					"replacements": {
+						"Flying vehicle class": "CHORUS Spaceship"
+					},
+					"specialization": "CHORUS-Powered Spaceship",
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"specialization": "High-Performance Spacecraft",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Theology",
+							"modifier": -4
+						},
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"specialization": "Low-Performance Spacecraft",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Piloting",
+							"specialization": "Aerospace",
+							"modifier": -4
+						}
+					],
+					"tech_level": "9",
+					"points": 1,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -6,
+						"level": 4,
+						"adjusted_level": 4,
+						"points": -4
+					}
+				}
+			]
 		},
 		{
 			"id": "S7Uf7hEPhK0xOBvKr",
@@ -482,11 +581,6 @@
 					"children": [
 						{
 							"id": "smrHG5zNClgt8jpJT",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Skills.skl",
-								"id": "sUyiTwddn_HuinJ4K"
-							},
 							"name": "Area Knowledge",
 							"reference": "B176",
 							"local_notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
@@ -512,11 +606,6 @@
 						},
 						{
 							"id": "szQsX4A3AhN_JjJTk",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Skills.skl",
-								"id": "s-Ckyxw5PmHIvbZab"
-							},
 							"name": "Area Knowledge",
 							"reference": "B176",
 							"local_notes": "Location of major planets; familiarity with all known races (but not necessarily expertise); knowledge of people of Status 7+; general understanding of the economic and political situation",
@@ -548,11 +637,6 @@
 					"children": [
 						{
 							"id": "sVtYA3SOWdazjOWhf",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Skills.skl",
-								"id": "sx_fhl-__9h3W-Sai"
-							},
 							"name": "Area Knowledge",
 							"reference": "B176",
 							"local_notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
@@ -589,11 +673,6 @@
 						},
 						{
 							"id": "sDVx6KVmvS2yoYEdV",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Basic Set/Basic Set Skills.skl",
-								"id": "sL0lqw_0WhF4JMpsg"
-							},
 							"name": "Area Knowledge",
 							"reference": "B176",
 							"local_notes": "Location of major planets; familiarity with all known races (but not necessarily expertise); knowledge of people of Status 7+; general understanding of the economic and political situation",
