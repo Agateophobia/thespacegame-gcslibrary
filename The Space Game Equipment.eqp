@@ -38,7 +38,7 @@
 			"id": "EBlgJg58ORCATre90",
 			"description": "Standard Pattern Equipment",
 			"tags": [
-				"Standard Issue"
+				"Standard Pattern"
 			],
 			"quantity": 1,
 			"equipped": true,
@@ -46,7 +46,6 @@
 				{
 					"id": "E7q0K6Muu5fUCuzu1",
 					"description": "Clothing \u0026 PPE",
-					"legality_class": "4",
 					"quantity": 1,
 					"equipped": true,
 					"children": [
@@ -201,14 +200,12 @@
 				{
 					"id": "EnTpVekgcDpkSDqtf",
 					"description": "Weapons",
-					"legality_class": "4",
 					"quantity": 1,
 					"equipped": true,
 					"children": [
 						{
 							"id": "EkQ86I-RDaVyBGpvg",
 							"description": "Firearms",
-							"legality_class": "4",
 							"quantity": 1,
 							"equipped": true,
 							"children": [
@@ -315,7 +312,6 @@
 												}
 											],
 											"calc": {
-												"level": 6,
 												"damage": "2d+2 pi"
 											}
 										},
@@ -407,7 +403,6 @@
 											],
 											"hide": true,
 											"calc": {
-												"level": 6,
 												"damage": "2d+2(0.5) pi+"
 											}
 										},
@@ -498,7 +493,6 @@
 											],
 											"hide": true,
 											"calc": {
-												"level": 6,
 												"damage": "2d-1(2) pi-"
 											}
 										}
@@ -515,7 +509,6 @@
 								{
 									"id": "EgM2WEKUxIieyFR9d",
 									"description": "Ammunition",
-									"legality_class": "4",
 									"quantity": 1,
 									"equipped": true,
 									"children": [
@@ -530,8 +523,8 @@
 											"reference": "HT176",
 											"tags": [
 												"Ammunition",
-												"Warheads",
-												"Standard Pattern"
+												"Standard Pattern",
+												"Warheads"
 											],
 											"base_value": "0.3",
 											"base_weight": "0.022 lb",
@@ -555,8 +548,8 @@
 											"reference": "HT176",
 											"tags": [
 												"Ammunition",
-												"Warheads",
-												"Standard Pattern"
+												"Standard Pattern",
+												"Warheads"
 											],
 											"base_value": "0.3",
 											"base_weight": "0.022 lb",
@@ -580,8 +573,8 @@
 											"reference": "HT176",
 											"tags": [
 												"Ammunition",
-												"Warheads",
-												"Standard Pattern"
+												"Standard Pattern",
+												"Warheads"
 											],
 											"base_value": "0.45",
 											"base_weight": "0.022 lb",
@@ -624,6 +617,297 @@
 				"extended_value": 14101.05,
 				"weight": "0 lb",
 				"extended_weight": "43.466 lb"
+			}
+		},
+		{
+			"id": "EvK1r-UD6O-CP-rs1",
+			"description": "Non-Standard Pattern Equipment",
+			"tags": [
+				"Non-Standard Pattern"
+			],
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "Eq54HXYJuK7J0UK60",
+					"description": "Weapons",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "EdR_X1qa8f_6HH2DI",
+							"description": "Firearms",
+							"quantity": 1,
+							"equipped": true,
+							"children": [
+								{
+									"id": "et_asRE7IvhJl0qT5",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "High Tech/High Tech Equipment.eqp",
+										"id": "e84ycLqIOd_F-mUGO"
+									},
+									"description": "TsNIITochMash KS-23M, 6-gauge 2.95\"",
+									"reference": "HT104",
+									"tech_level": "8",
+									"legality_class": "3",
+									"tags": [
+										"Firearms",
+										"Non-Standard Pattern"
+									],
+									"base_value": "1300",
+									"base_weight": "7.7 lb",
+									"weapons": [
+										{
+											"id": "W1qgE7OSsw9Uj43ge",
+											"sv": 1,
+											"damage": {
+												"type": "pi",
+												"base": "2d+1"
+											},
+											"strength": "13†",
+											"usage": "Shot",
+											"accuracy": "3",
+											"range": "40/800",
+											"rate_of_fire": "1x13",
+											"shots": "3+1(3i)",
+											"bulk": "-5",
+											"recoil": "1/8",
+											"defaults": [
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Shotgun"
+												},
+												{
+													"type": "dx",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Pistol",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Rifle",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Musket",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Shotgun",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Light Machine Gun",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Submachine Gun",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Gun!"
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Grenade Launcher",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Gyroc",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Light Anti-Armor Weapon",
+													"modifier": -4
+												}
+											],
+											"calc": {
+												"level": 3,
+												"damage": "2d+1 pi"
+											}
+										},
+										{
+											"id": "W1PTMQ790UAVLXupm",
+											"sv": 1,
+											"damage": {
+												"type": "pi++",
+												"base": "9d"
+											},
+											"strength": "13†",
+											"usage": "Slug",
+											"accuracy": "4",
+											"range": "40/800",
+											"rate_of_fire": "1",
+											"shots": "3+1(3i)",
+											"bulk": "-5",
+											"recoil": "1/8",
+											"defaults": [
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Shotgun"
+												},
+												{
+													"type": "dx",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Pistol",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Rifle",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Musket",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Shotgun",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Light Machine Gun",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Submachine Gun",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Gun!"
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Grenade Launcher",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Gyroc",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Light Anti-Armor Weapon",
+													"modifier": -4
+												}
+											],
+											"calc": {
+												"level": 3,
+												"damage": "9d pi++"
+											}
+										}
+									],
+									"quantity": 1,
+									"equipped": true,
+									"calc": {
+										"value": 1300,
+										"extended_value": 1300,
+										"weight": "7.7 lb",
+										"extended_weight": "7.7 lb"
+									}
+								}
+							],
+							"calc": {
+								"value": 0,
+								"extended_value": 1300,
+								"weight": "0 lb",
+								"extended_weight": "7.7 lb"
+							}
+						},
+						{
+							"id": "E-8diVasOsBlSEPeK",
+							"description": "Ammunition",
+							"legality_class": "4",
+							"quantity": 1,
+							"equipped": true,
+							"children": [
+								{
+									"id": "eM25WvG5i7YDsxkvw",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "High Tech/High Tech Equipment.eqp",
+										"id": "erCcHFq1_jVJa9ecY"
+									},
+									"description": "6-gauge 2.95\"",
+									"reference": "HT176",
+									"local_notes": "Light cased. Shotshell.",
+									"tags": [
+										"Ammunition",
+										"Warheads"
+									],
+									"base_value": "1.8",
+									"base_weight": "0.22 lb",
+									"quantity": 1,
+									"equipped": true,
+									"calc": {
+										"value": 1.8,
+										"extended_value": 1.8,
+										"weight": "0.22 lb",
+										"extended_weight": "0.22 lb"
+									}
+								}
+							],
+							"calc": {
+								"value": 0,
+								"extended_value": 1.8,
+								"weight": "0 lb",
+								"extended_weight": "0.22 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 1301.8,
+						"weight": "0 lb",
+						"extended_weight": "7.92 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 1301.8,
+				"weight": "0 lb",
+				"extended_weight": "7.92 lb"
 			}
 		}
 	]
