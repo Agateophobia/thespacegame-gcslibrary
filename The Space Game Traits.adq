@@ -1,4 +1,89 @@
 {
 	"version": 5,
-	"rows": []
+	"rows": [
+		{
+			"id": "tfx1nyO7HJpcuH2lq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Space/Space Traits.adq",
+				"id": "thWGjZlCnelWeAvjD"
+			},
+			"name": "Radiophobia (Radiation)",
+			"reference": "B148, S222",
+			"local_notes": "You are terrified of invisible, deadly radiation or radioactive contamination. You must make a self-control roll to approach or touch something labeled “radioactive” or bearing the radiation trefoil, and must roll once per turn to remain near a source of radiation, even if the level isn’t harmful. You will constantly monitor the rad level in your surroundings.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"cr_adj": "action_penalty",
+			"cr": 12,
+			"base_points": -5,
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "t0jqf4NekkD8r3g3p",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Space/Space Traits.adq",
+				"id": "tqjzqNtvf6849bXAG"
+			},
+			"name": "Astrophobia (Space)",
+			"reference": "B148, S222",
+			"local_notes": "You cannot stand being away from a real solid planet. Aboard a space station or spaceship, make a self-control roll to avoid complete panic during any stressful situation (with a penalty of -2 if you can see out a window at the time). Any time you must go outside into space wearing only a suit, a roll is required each turn to avoid panic.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"cr_adj": "action_penalty",
+			"cr": 12,
+			"base_points": -10,
+			"calc": {
+				"points": -10
+			}
+		},
+		{
+			"id": "t049Fi4fCQte2tijk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Space/Space Traits.adq",
+				"id": "tqjzqNtvf6849bXAG"
+			},
+			"name": "Exochorophobia (Witchspace)",
+			"reference": "B148",
+			"local_notes": "You horrified of Witchspace. Aboard a vessel traveling through Witchspace, make a self-control roll to avoid complete panic during any stressful situation (with a penalty of -2 if you can see out a window at the time). Any time you must go outside into Witchspace wearing only a suit, a roll is required each turn to avoid panic.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"cr_adj": "action_penalty",
+			"cr": 12,
+			"base_points": -5,
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "tHxPlnHZLukX2-KvM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Space/Space Traits.adq",
+				"id": "tqjzqNtvf6849bXAG"
+			},
+			"name": "Hagiophobia (Holy Things)",
+			"reference": "B148",
+			"local_notes": "You terrified of all that is holy, be it Witchdrive, CHORUS or anything else. Aboard a CHORUS-powered vessel, make a self-control roll to avoid complete panic during any stressful situation. Any time you must go inside the Witchdrive reliquary, a roll is required each turn to avoid panic.",
+			"tags": [
+				"Disadvantage",
+				"Mental"
+			],
+			"cr_adj": "action_penalty",
+			"cr": 12,
+			"base_points": -10,
+			"calc": {
+				"points": -10
+			}
+		}
+	]
 }
