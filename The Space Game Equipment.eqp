@@ -217,7 +217,6 @@
 										"id": "eMDa1oJBLs_b-hBc_"
 									},
 									"description": "Izhmekh PMM-2, 9x18mm+P",
-									"reference": "HT100",
 									"tech_level": "9",
 									"legality_class": "4",
 									"tags": [
@@ -228,7 +227,7 @@
 									"base_weight": "1.4 lb",
 									"weapons": [
 										{
-											"id": "WM8tuczQ1epkDLgZw",
+											"id": "WNmZp4cZjimmYoxHo",
 											"sv": 1,
 											"damage": {
 												"type": "pi",
@@ -316,7 +315,7 @@
 											}
 										},
 										{
-											"id": "WB8pOQcDrkqWlgol8",
+											"id": "WCRFXnosE-LTjzr3m",
 											"sv": 1,
 											"damage": {
 												"type": "pi+",
@@ -407,7 +406,7 @@
 											}
 										},
 										{
-											"id": "Wlm_IQRcd4ia7MJqL",
+											"id": "Wx1aQa_WmceTgcR_e",
 											"sv": 1,
 											"damage": {
 												"type": "pi-",
@@ -648,7 +647,6 @@
 										"id": "e84ycLqIOd_F-mUGO"
 									},
 									"description": "TsNIITochMash KS-23M, 6-gauge 2.95\"",
-									"reference": "HT104",
 									"tech_level": "8",
 									"legality_class": "3",
 									"tags": [
@@ -659,7 +657,7 @@
 									"base_weight": "7.7 lb",
 									"weapons": [
 										{
-											"id": "W1qgE7OSsw9Uj43ge",
+											"id": "WyRWNJ6gOZWnOHv2T",
 											"sv": 1,
 											"damage": {
 												"type": "pi",
@@ -748,7 +746,7 @@
 											}
 										},
 										{
-											"id": "W1PTMQ790UAVLXupm",
+											"id": "WtRukgVwsRS7p4cdg",
 											"sv": 1,
 											"damage": {
 												"type": "pi++",
@@ -868,11 +866,36 @@
 										"path": "High Tech/High Tech Equipment.eqp",
 										"id": "erCcHFq1_jVJa9ecY"
 									},
-									"description": "6-gauge 2.95\"",
-									"reference": "HT176",
-									"local_notes": "Light cased. Shotshell.",
+									"description": "6-gauge 2.95\" Shotshell",
+									"local_notes": "Light cased.",
 									"tags": [
 										"Ammunition",
+										"Non-Standard Pattern",
+										"Warheads"
+									],
+									"base_value": "1.8",
+									"base_weight": "0.22 lb",
+									"quantity": 1,
+									"equipped": true,
+									"calc": {
+										"value": 1.8,
+										"extended_value": 1.8,
+										"weight": "0.22 lb",
+										"extended_weight": "0.22 lb"
+									}
+								},
+								{
+									"id": "eIgM4txME4Wfp3v9G",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "High Tech/High Tech Equipment.eqp",
+										"id": "erCcHFq1_jVJa9ecY"
+									},
+									"description": "6-gauge 2.95\" Slug",
+									"local_notes": "Light cased.",
+									"tags": [
+										"Ammunition",
+										"Non-Standard Pattern",
 										"Warheads"
 									],
 									"base_value": "1.8",
@@ -889,25 +912,25 @@
 							],
 							"calc": {
 								"value": 0,
-								"extended_value": 1.8,
+								"extended_value": 3.6,
 								"weight": "0 lb",
-								"extended_weight": "0.22 lb"
+								"extended_weight": "0.44 lb"
 							}
 						}
 					],
 					"calc": {
 						"value": 0,
-						"extended_value": 1301.8,
+						"extended_value": 1303.6,
 						"weight": "0 lb",
-						"extended_weight": "7.92 lb"
+						"extended_weight": "8.14 lb"
 					}
 				}
 			],
 			"calc": {
 				"value": 0,
-				"extended_value": 1301.8,
+				"extended_value": 1303.6,
 				"weight": "0 lb",
-				"extended_weight": "7.92 lb"
+				"extended_weight": "8.14 lb"
 			}
 		}
 	]
