@@ -664,6 +664,122 @@
 							"equipped": true,
 							"children": [
 								{
+									"id": "eCNhJQ8R3ndWTLhon",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "High Tech/High Tech Equipment.eqp",
+										"id": "eMDa1oJBLs_b-hBc_"
+									},
+									"description": "KBP OTs-38 Stechkin, 7.62x41mm SP-4",
+									"local_notes": "Integral targeting laser.",
+									"tech_level": "8",
+									"legality_class": "2",
+									"tags": [
+										"Firearms",
+										"Non-Standard Pattern",
+										"Revolver"
+									],
+									"base_value": "580",
+									"base_weight": "1.9 lb",
+									"weapons": [
+										{
+											"id": "WIOCveD2o92vylX0E",
+											"sv": 1,
+											"damage": {
+												"type": "pi",
+												"base": "1d+2"
+											},
+											"strength": "8",
+											"accuracy": "2",
+											"range": "25/50",
+											"rate_of_fire": "3",
+											"shots": "5(3i)",
+											"bulk": "-2",
+											"recoil": "2",
+											"defaults": [
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Pistol"
+												},
+												{
+													"type": "dx",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Pistol",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Rifle",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Musket",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Shotgun",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Light Machine Gun",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Submachine Gun",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Gun!"
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Grenade Launcher",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Gyroc",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Light Anti-Armor Weapon",
+													"modifier": -4
+												}
+											],
+											"calc": {
+												"damage": "1d+2 pi"
+											}
+										}
+									],
+									"quantity": 1,
+									"equipped": true,
+									"calc": {
+										"value": 580,
+										"extended_value": 580,
+										"weight": "1.9 lb",
+										"extended_weight": "1.9 lb"
+									}
+								},
+								{
 									"id": "eLIPS7k5DDsRqGROr",
 									"source": {
 										"library": "richardwilkes/gcs_master_library",
@@ -987,9 +1103,9 @@
 							],
 							"calc": {
 								"value": 0,
-								"extended_value": 1750,
+								"extended_value": 2330,
 								"weight": "0 lb",
-								"extended_weight": "15.7 lb"
+								"extended_weight": "17.6 lb"
 							}
 						},
 						{
@@ -1050,6 +1166,32 @@
 									}
 								},
 								{
+									"id": "e1k294uAgGVLqG_P1",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "High Tech/High Tech Equipment.eqp",
+										"id": "eDpwycU3319jm_aUv"
+									},
+									"description": "7.62x41mm SP-4",
+									"reference": "HT176",
+									"local_notes": "Silent ammunition.",
+									"tags": [
+										"Ammunition",
+										"Non-Standard Pattern",
+										"Warheads"
+									],
+									"base_value": "50",
+									"base_weight": "0.05",
+									"quantity": 1,
+									"equipped": true,
+									"calc": {
+										"value": 50,
+										"extended_value": 50,
+										"weight": "0.05 lb",
+										"extended_weight": "0.05 lb"
+									}
+								},
+								{
 									"id": "e_aSF6t2MpTxZOp0h",
 									"source": {
 										"library": "richardwilkes/gcs_master_library",
@@ -1101,25 +1243,25 @@
 							],
 							"calc": {
 								"value": 0,
-								"extended_value": 308.9,
+								"extended_value": 358.9,
 								"weight": "0 lb",
-								"extended_weight": "1.288 lb"
+								"extended_weight": "1.338 lb"
 							}
 						}
 					],
 					"calc": {
 						"value": 0,
-						"extended_value": 2058.9,
+						"extended_value": 2688.9,
 						"weight": "0 lb",
-						"extended_weight": "16.988 lb"
+						"extended_weight": "18.938 lb"
 					}
 				}
 			],
 			"calc": {
 				"value": 0,
-				"extended_value": 2058.9,
+				"extended_value": 2688.9,
 				"weight": "0 lb",
-				"extended_weight": "16.988 lb"
+				"extended_weight": "18.938 lb"
 			}
 		}
 	]
