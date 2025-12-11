@@ -221,13 +221,14 @@
 									"legality_class": "4",
 									"tags": [
 										"Firearms",
-										"Standard Pattern"
+										"Standard Pattern",
+										"Pistol"
 									],
 									"base_value": "350",
 									"base_weight": "1.4 lb",
 									"weapons": [
 										{
-											"id": "WNmZp4cZjimmYoxHo",
+											"id": "WLVLxGMm4_Fpc-GEz",
 											"sv": 1,
 											"damage": {
 												"type": "pi",
@@ -315,7 +316,7 @@
 											}
 										},
 										{
-											"id": "WCRFXnosE-LTjzr3m",
+											"id": "WGOPpJsLq_x4LpT0k",
 											"sv": 1,
 											"damage": {
 												"type": "pi+",
@@ -406,7 +407,7 @@
 											}
 										},
 										{
-											"id": "Wx1aQa_WmceTgcR_e",
+											"id": "WgHUbJ4s2UELXrHvW",
 											"sv": 1,
 											"damage": {
 												"type": "pi-",
@@ -585,37 +586,60 @@
 												"weight": "0.022 lb",
 												"extended_weight": "0.022 lb"
 											}
+										},
+										{
+											"id": "E8MHrbf0YX7f18u5s",
+											"description": "Izhmekh PMM-2, 9x18mm Makarov 12-round Magazine",
+											"reference": "HT100",
+											"local_notes": "Requires 9x18mm Makarov ammunition",
+											"tech_level": "9",
+											"tags": [
+												"Ammunition",
+												"Standard Pattern",
+												"Magazines",
+												"Pistol"
+											],
+											"base_value": "25",
+											"base_weight": "0.12 lb",
+											"quantity": 1,
+											"equipped": true,
+											"calc": {
+												"value": 25,
+												"extended_value": 25,
+												"weight": "0.12 lb",
+												"extended_weight": "0.12 lb"
+											}
 										}
 									],
 									"calc": {
 										"value": 0,
-										"extended_value": 1.05,
+										"extended_value": 26.05,
 										"weight": "0 lb",
-										"extended_weight": "0.066 lb"
+										"extended_weight": "0.186 lb"
 									}
 								}
 							],
 							"calc": {
 								"value": 0,
-								"extended_value": 351.05,
+								"extended_value": 376.05,
 								"weight": "0 lb",
-								"extended_weight": "1.466 lb"
+								"extended_weight": "1.586 lb"
 							}
 						}
 					],
 					"calc": {
 						"value": 0,
-						"extended_value": 351.05,
+						"extended_value": 376.05,
 						"weight": "0 lb",
-						"extended_weight": "1.466 lb"
+						"extended_weight": "1.586 lb"
 					}
 				}
 			],
 			"calc": {
 				"value": 0,
-				"extended_value": 14101.05,
+				"extended_value": 14126.05,
 				"weight": "0 lb",
-				"extended_weight": "43.466 lb"
+				"extended_weight": "43.586 lb"
 			}
 		},
 		{
@@ -640,6 +664,123 @@
 							"equipped": true,
 							"children": [
 								{
+									"id": "eLIPS7k5DDsRqGROr",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "High Tech/High Tech Equipment.eqp",
+										"id": "eOVTpR5qj7r7tXK4t"
+									},
+									"description": "Izhmash PP-19 Bizon-2-01, 9x19mm",
+									"reference": "HT124",
+									"tech_level": "8",
+									"legality_class": "2",
+									"tags": [
+										"Firearms",
+										"Non-Standard Pattern",
+										"Submachine Gun"
+									],
+									"base_value": "450",
+									"base_weight": "8 lb",
+									"weapons": [
+										{
+											"id": "WITWHJNMbOOlM87uU",
+											"sv": 1,
+											"damage": {
+												"type": "pi",
+												"base": "3d-1"
+											},
+											"strength": "8†",
+											"accuracy": "3",
+											"range": "170/1,900",
+											"rate_of_fire": "12",
+											"shots": "53(5)",
+											"bulk": "-4*",
+											"recoil": "2",
+											"defaults": [
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Submachine Gun"
+												},
+												{
+													"type": "dx",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Pistol",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Rifle",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Musket",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Shotgun",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Light Machine Gun",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Submachine Gun",
+													"modifier": -2
+												},
+												{
+													"type": "skill",
+													"name": "Gun!"
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Grenade Launcher",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Gyroc",
+													"modifier": -4
+												},
+												{
+													"type": "skill",
+													"name": "Guns",
+													"specialization": "Light Anti-Armor Weapon",
+													"modifier": -4
+												}
+											],
+											"calc": {
+												"level": 6,
+												"damage": "3d-1 pi"
+											}
+										}
+									],
+									"quantity": 1,
+									"equipped": true,
+									"calc": {
+										"value": 450,
+										"extended_value": 450,
+										"weight": "8 lb",
+										"extended_weight": "8 lb"
+									}
+								},
+								{
 									"id": "et_asRE7IvhJl0qT5",
 									"source": {
 										"library": "richardwilkes/gcs_master_library",
@@ -648,16 +789,17 @@
 									},
 									"description": "TsNIITochMash KS-23M, 6-gauge 2.95\"",
 									"tech_level": "8",
-									"legality_class": "3",
+									"legality_class": "2",
 									"tags": [
 										"Firearms",
-										"Non-Standard Pattern"
+										"Non-Standard Pattern",
+										"Shotgun"
 									],
 									"base_value": "1300",
 									"base_weight": "7.7 lb",
 									"weapons": [
 										{
-											"id": "WyRWNJ6gOZWnOHv2T",
+											"id": "WmNSHpyszyRoAhrLm",
 											"sv": 1,
 											"damage": {
 												"type": "pi",
@@ -667,7 +809,7 @@
 											"usage": "Shot",
 											"accuracy": "3",
 											"range": "40/800",
-											"rate_of_fire": "1x13",
+											"rate_of_fire": "2x13",
 											"shots": "3+1(3i)",
 											"bulk": "-5",
 											"recoil": "1/8",
@@ -741,12 +883,11 @@
 												}
 											],
 											"calc": {
-												"level": 3,
 												"damage": "2d+1 pi"
 											}
 										},
 										{
-											"id": "WtRukgVwsRS7p4cdg",
+											"id": "WPpjbDdwGfU8lk9i-",
 											"sv": 1,
 											"damage": {
 												"type": "pi++",
@@ -756,7 +897,7 @@
 											"usage": "Slug",
 											"accuracy": "4",
 											"range": "40/800",
-											"rate_of_fire": "1",
+											"rate_of_fire": "2",
 											"shots": "3+1(3i)",
 											"bulk": "-5",
 											"recoil": "1/8",
@@ -830,7 +971,6 @@
 												}
 											],
 											"calc": {
-												"level": 3,
 												"damage": "9d pi++"
 											}
 										}
@@ -847,9 +987,9 @@
 							],
 							"calc": {
 								"value": 0,
-								"extended_value": 1300,
+								"extended_value": 1750,
 								"weight": "0 lb",
-								"extended_weight": "7.7 lb"
+								"extended_weight": "15.7 lb"
 							}
 						},
 						{
@@ -908,29 +1048,78 @@
 										"weight": "0.22 lb",
 										"extended_weight": "0.22 lb"
 									}
+								},
+								{
+									"id": "e_aSF6t2MpTxZOp0h",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "High Tech/High Tech Equipment.eqp",
+										"id": "eDpwycU3319jm_aUv"
+									},
+									"description": "9x19mm Parabellum",
+									"reference": "HT176",
+									"tags": [
+										"Ammunition",
+										"Non-Standard Pattern",
+										"Warheads"
+									],
+									"base_value": "0.3",
+									"base_weight": "0.026 lb",
+									"quantity": 1,
+									"equipped": true,
+									"calc": {
+										"value": 0.3,
+										"extended_value": 0.3,
+										"weight": "0.026 lb",
+										"extended_weight": "0.026 lb"
+									}
+								},
+								{
+									"id": "Ef5IBEmkTBRHvyyGT",
+									"description": "Izhmash PP-19 Bizon-2-01, 9x19mm Parabellum 53-round magazine",
+									"reference": "HT126",
+									"local_notes": "Requires 9x19mm Parabellum ammunition",
+									"tech_level": "8",
+									"legality_class": "3",
+									"tags": [
+										"Ammunition",
+										"Magazines",
+										"Non-Standard Pattern",
+										"Submachine Gun"
+									],
+									"base_value": "305",
+									"base_weight": "0.822 lb",
+									"quantity": 1,
+									"equipped": true,
+									"calc": {
+										"value": 305,
+										"extended_value": 305,
+										"weight": "0.822 lb",
+										"extended_weight": "0.822 lb"
+									}
 								}
 							],
 							"calc": {
 								"value": 0,
-								"extended_value": 3.6,
+								"extended_value": 308.9,
 								"weight": "0 lb",
-								"extended_weight": "0.44 lb"
+								"extended_weight": "1.288 lb"
 							}
 						}
 					],
 					"calc": {
 						"value": 0,
-						"extended_value": 1303.6,
+						"extended_value": 2058.9,
 						"weight": "0 lb",
-						"extended_weight": "8.14 lb"
+						"extended_weight": "16.988 lb"
 					}
 				}
 			],
 			"calc": {
 				"value": 0,
-				"extended_value": 1303.6,
+				"extended_value": 2058.9,
 				"weight": "0 lb",
-				"extended_weight": "8.14 lb"
+				"extended_weight": "16.988 lb"
 			}
 		}
 	]
