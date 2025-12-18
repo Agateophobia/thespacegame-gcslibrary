@@ -414,6 +414,45 @@
 					}
 				},
 				{
+					"id": "sUwsSBPOthQ_CwpHl",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sMIRD7ORV8Bmze6Af"
+					},
+					"name": "Theology",
+					"reference": "B226",
+					"tags": [
+						"Humanities",
+						"Social Sciences"
+					],
+					"replacements": {
+						"Specialty": "Old Abrahamic"
+					},
+					"specialization": "Judaism",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Religious Ritual",
+							"specialization": "@Specialty@",
+							"modifier": -4
+						}
+					],
+					"points": 1,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -6,
+						"level": 4,
+						"adjusted_level": 4,
+						"points": -4
+					}
+				},
+				{
 					"id": "sq36ajvMuH6CjbGJ2",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
