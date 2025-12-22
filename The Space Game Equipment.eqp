@@ -44,6 +44,90 @@
 			"equipped": true,
 			"children": [
 				{
+					"id": "ERDaXHtDSMCAjCqD2",
+					"description": "Medical",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "eNXPeZJUZeUzpuSlz",
+							"description": "Wheelchair",
+							"local_notes": "ST/4 Move, up to a limit of 5.",
+							"tech_level": "9",
+							"tags": [
+								"Medical",
+								"Standard Pattern"
+							],
+							"base_value": "300",
+							"base_weight": "30",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 300,
+								"extended_value": 300,
+								"weight": "30 lb",
+								"extended_weight": "30 lb"
+							}
+						},
+						{
+							"id": "eTafQtj-OE6uM-xZ5",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "eAt_88Nb2F8tt0h60"
+							},
+							"description": "Basic Arm Prosthetic",
+							"reference": "HT226",
+							"tech_level": "5",
+							"tags": [
+								"Medical",
+								"Standard Pattern"
+							],
+							"base_value": "2000",
+							"base_weight": "3 lb",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 2000,
+								"extended_value": 2000,
+								"weight": "3 lb",
+								"extended_weight": "3 lb"
+							}
+						},
+						{
+							"id": "eXspdYr7yejEyG_gv",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "ea7v3QnLFi218jZFf"
+							},
+							"description": "Basic Leg Prosthetic",
+							"reference": "HT226",
+							"tech_level": "5",
+							"tags": [
+								"Medical",
+								"Standard Pattern"
+							],
+							"base_value": "2000",
+							"base_weight": "6 lb",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 2000,
+								"extended_value": 2000,
+								"weight": "6 lb",
+								"extended_weight": "6 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 4300,
+						"weight": "0 lb",
+						"extended_weight": "39 lb"
+					}
+				},
+				{
 					"id": "E7q0K6Muu5fUCuzu1",
 					"description": "Clothing \u0026 PPE",
 					"quantity": 1,
@@ -221,8 +305,8 @@
 									"legality_class": "4",
 									"tags": [
 										"Firearms",
-										"Standard Pattern",
-										"Pistol"
+										"Pistol",
+										"Standard Pattern"
 									],
 									"base_value": "350",
 									"base_weight": "1.4 lb",
@@ -595,9 +679,9 @@
 											"tech_level": "9",
 											"tags": [
 												"Ammunition",
-												"Standard Pattern",
 												"Magazines",
-												"Pistol"
+												"Pistol",
+												"Standard Pattern"
 											],
 											"base_value": "25",
 											"base_weight": "0.12 lb",
@@ -637,9 +721,9 @@
 			],
 			"calc": {
 				"value": 0,
-				"extended_value": 14126.05,
+				"extended_value": 18426.05,
 				"weight": "0 lb",
-				"extended_weight": "43.586 lb"
+				"extended_weight": "82.586 lb"
 			}
 		},
 		{
@@ -651,6 +735,92 @@
 			"quantity": 1,
 			"equipped": true,
 			"children": [
+				{
+					"id": "EHFzcKVInCPM4-IHr",
+					"description": "Medical",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "eqt28k9nZO5TzvrPw",
+							"description": "Electric Wheelchair",
+							"local_notes": "Move 4. Eight hours of operation.",
+							"tech_level": "9",
+							"tags": [
+								"Medical",
+								"Non-Standard Pattern"
+							],
+							"base_value": "1500",
+							"base_weight": "130",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 1500,
+								"extended_value": 1500,
+								"weight": "130 lb",
+								"extended_weight": "130 lb"
+							}
+						},
+						{
+							"id": "efwCLH3Lc2f5B4YKF",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "eh6O5s8DOqs6ydQRI"
+							},
+							"description": "Advanced Arm Prosthetic",
+							"reference": "HT226",
+							"local_notes": "12 hours between recharges.",
+							"tech_level": "9",
+							"tags": [
+								"Medical",
+								"Non-Standard Pattern"
+							],
+							"base_value": "30000",
+							"base_weight": "2.5 lb",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 30000,
+								"extended_value": 30000,
+								"weight": "2.5 lb",
+								"extended_weight": "2.5 lb"
+							}
+						},
+						{
+							"id": "e1ci8r00BmxkS2dSQ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "e7LFunPVAYuJnCpGs"
+							},
+							"description": "Advanced Leg Prosthetic",
+							"reference": "HT226",
+							"local_notes": "30 hours between recharges.",
+							"tech_level": "9",
+							"tags": [
+								"Medical",
+								"Non-Standard Pattern"
+							],
+							"base_value": "30000",
+							"base_weight": "5 lb",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 30000,
+								"extended_value": 30000,
+								"weight": "5 lb",
+								"extended_weight": "5 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 61500,
+						"weight": "0 lb",
+						"extended_weight": "137.5 lb"
+					}
+				},
 				{
 					"id": "Eq54HXYJuK7J0UK60",
 					"description": "Weapons",
@@ -882,7 +1052,6 @@
 												}
 											],
 											"calc": {
-												"level": 6,
 												"damage": "3d-1 pi"
 											}
 										}
@@ -1259,9 +1428,248 @@
 			],
 			"calc": {
 				"value": 0,
-				"extended_value": 2688.9,
+				"extended_value": 64188.9,
 				"weight": "0 lb",
-				"extended_weight": "18.938 lb"
+				"extended_weight": "156.438 lb"
+			}
+		},
+		{
+			"id": "EIsP1hINlo0Hqf9Yv",
+			"description": "Supplies",
+			"tags": [
+				"Supplies"
+			],
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "Ei1KS7WPQinFmgtY9",
+					"description": "Luxuries",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "ePFQ_vBzAPRuo5ipm",
+							"description": "Coffee",
+							"local_notes": "30 cups.",
+							"tags": [
+								"Supplies",
+								"Food",
+								"Luxuries"
+							],
+							"base_value": "10",
+							"base_weight": "1",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 10,
+								"extended_value": 10,
+								"weight": "1 lb",
+								"extended_weight": "1 lb"
+							}
+						},
+						{
+							"id": "ejzudQIO55ERPHtkS",
+							"description": "Pack of Cigarettes",
+							"local_notes": "20 cigarettes.",
+							"tags": [
+								"Supplies",
+								"Luxury Goods"
+							],
+							"base_value": "5",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 5,
+								"extended_value": 5,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eQxIs13KtIqxVus_y",
+							"description": "Electronic Cigarette",
+							"local_notes": "Can be used to administer one dose of a respiratory agent.",
+							"tech_level": "8",
+							"tags": [
+								"Supplies",
+								"Luxury Goods"
+							],
+							"base_value": "20",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 20,
+								"extended_value": 20,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						},
+						{
+							"id": "eUTWmzg-YBGfxB-Tb",
+							"description": "Electronic Cigarette Liquid",
+							"local_notes": "25 doses.",
+							"tags": [
+								"Supplies",
+								"Luxury Goods"
+							],
+							"base_value": "5",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 5,
+								"extended_value": 5,
+								"weight": "0 lb",
+								"extended_weight": "0 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 40,
+						"weight": "0 lb",
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "EnhMs7poKx03OsVXe",
+					"description": "Food",
+					"tags": [
+						"Supplies",
+						"Food"
+					],
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "E-8n6edpbA3xG-aU1",
+							"description": "Rations",
+							"tags": [
+								"Supplies",
+								"Food"
+							],
+							"quantity": 1,
+							"equipped": true,
+							"children": [
+								{
+									"id": "eSz6FFZJtMEzQExX2",
+									"description": "Rations",
+									"local_notes": "One meal.",
+									"tech_level": "8",
+									"tags": [
+										"Supplies",
+										"Food"
+									],
+									"base_value": "5",
+									"base_weight": "1.5lb",
+									"quantity": 1,
+									"equipped": true,
+									"calc": {
+										"value": 5,
+										"extended_value": 5,
+										"weight": "1.5 lb",
+										"extended_weight": "1.5 lb"
+									}
+								},
+								{
+									"id": "eEnORTrP3RjyiEE4n",
+									"description": "Rations Box",
+									"local_notes": "24 meals, 8 man-days",
+									"tech_level": "8",
+									"tags": [
+										"Supplies",
+										"Food"
+									],
+									"base_value": "120",
+									"base_weight": "40",
+									"quantity": 1,
+									"equipped": true,
+									"calc": {
+										"value": 120,
+										"extended_value": 120,
+										"weight": "40 lb",
+										"extended_weight": "40 lb"
+									}
+								},
+								{
+									"id": "ee4FX3UcjI6M4yzQX",
+									"description": "Large Rations Box",
+									"local_notes": "168 meals, 56 man-days",
+									"tech_level": "8",
+									"tags": [
+										"Supplies",
+										"Food"
+									],
+									"base_value": "840",
+									"base_weight": "256",
+									"quantity": 1,
+									"equipped": true,
+									"calc": {
+										"value": 840,
+										"extended_value": 840,
+										"weight": "256 lb",
+										"extended_weight": "256 lb"
+									}
+								}
+							],
+							"calc": {
+								"value": 0,
+								"extended_value": 965,
+								"weight": "0 lb",
+								"extended_weight": "297.5 lb"
+							}
+						},
+						{
+							"id": "EoOkWt5l80BZkzv_p",
+							"description": "Fresh Food",
+							"tags": [
+								"Supplies",
+								"Food"
+							],
+							"quantity": 1,
+							"equipped": true,
+							"children": [
+								{
+									"id": "eJxW8KvywnWugpYOT",
+									"description": "Fresh Food",
+									"local_notes": "A meal worth of fresh produce. Will spoil if not refrigerated.",
+									"tags": [
+										"Supplies",
+										"Food"
+									],
+									"base_value": "3",
+									"base_weight": "2",
+									"quantity": 1,
+									"equipped": true,
+									"calc": {
+										"value": 3,
+										"extended_value": 3,
+										"weight": "2 lb",
+										"extended_weight": "2 lb"
+									}
+								}
+							],
+							"calc": {
+								"value": 0,
+								"extended_value": 3,
+								"weight": "0 lb",
+								"extended_weight": "2 lb"
+							}
+						}
+					],
+					"calc": {
+						"value": 0,
+						"extended_value": 968,
+						"weight": "0 lb",
+						"extended_weight": "299.5 lb"
+					}
+				}
+			],
+			"calc": {
+				"value": 0,
+				"extended_value": 1008,
+				"weight": "0 lb",
+				"extended_weight": "300.5 lb"
 			}
 		}
 	]
