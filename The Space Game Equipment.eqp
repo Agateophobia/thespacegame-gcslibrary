@@ -1453,9 +1453,9 @@
 							"description": "Coffee",
 							"local_notes": "30 cups.",
 							"tags": [
-								"Supplies",
 								"Food",
-								"Luxuries"
+								"Luxuries",
+								"Supplies"
 							],
 							"base_value": "10",
 							"base_weight": "1",
@@ -1469,16 +1469,34 @@
 							}
 						},
 						{
-							"id": "ejzudQIO55ERPHtkS",
+							"id": "EjzudQIO55ERPHtkS",
 							"description": "Pack of Cigarettes",
 							"local_notes": "20 cigarettes.",
 							"tags": [
-								"Supplies",
-								"Luxury Goods"
+								"Luxury Goods",
+								"Supplies"
 							],
 							"base_value": "5",
 							"quantity": 1,
 							"equipped": true,
+							"children": [
+								{
+									"id": "eV0p1lhJ2t2R8arlN",
+									"description": "Cigarette",
+									"tags": [
+										"Luxury Goods",
+										"Supplies"
+									],
+									"quantity": 20,
+									"equipped": true,
+									"calc": {
+										"value": 0,
+										"extended_value": 0,
+										"weight": "0 lb",
+										"extended_weight": "0 lb"
+									}
+								}
+							],
 							"calc": {
 								"value": 5,
 								"extended_value": 5,
@@ -1492,8 +1510,8 @@
 							"local_notes": "Can be used to administer one dose of a respiratory agent.",
 							"tech_level": "8",
 							"tags": [
-								"Supplies",
-								"Luxury Goods"
+								"Luxury Goods",
+								"Supplies"
 							],
 							"base_value": "20",
 							"quantity": 1,
@@ -1510,8 +1528,8 @@
 							"description": "Electronic Cigarette Liquid",
 							"local_notes": "25 doses.",
 							"tags": [
-								"Supplies",
-								"Luxury Goods"
+								"Luxury Goods",
+								"Supplies"
 							],
 							"base_value": "5",
 							"quantity": 1,
@@ -1535,8 +1553,8 @@
 					"id": "EnhMs7poKx03OsVXe",
 					"description": "Food",
 					"tags": [
-						"Supplies",
-						"Food"
+						"Food",
+						"Supplies"
 					],
 					"quantity": 1,
 					"equipped": true,
@@ -1545,8 +1563,8 @@
 							"id": "E-8n6edpbA3xG-aU1",
 							"description": "Rations",
 							"tags": [
-								"Supplies",
-								"Food"
+								"Food",
+								"Supplies"
 							],
 							"quantity": 1,
 							"equipped": true,
@@ -1557,8 +1575,8 @@
 									"local_notes": "One meal.",
 									"tech_level": "8",
 									"tags": [
-										"Supplies",
-										"Food"
+										"Food",
+										"Supplies"
 									],
 									"base_value": "5",
 									"base_weight": "1.5lb",
@@ -1577,8 +1595,8 @@
 									"local_notes": "24 meals, 8 man-days",
 									"tech_level": "8",
 									"tags": [
-										"Supplies",
-										"Food"
+										"Food",
+										"Supplies"
 									],
 									"base_value": "120",
 									"base_weight": "40",
@@ -1597,8 +1615,8 @@
 									"local_notes": "168 meals, 56 man-days",
 									"tech_level": "8",
 									"tags": [
-										"Supplies",
-										"Food"
+										"Food",
+										"Supplies"
 									],
 									"base_value": "840",
 									"base_weight": "256",
@@ -1623,8 +1641,8 @@
 							"id": "EoOkWt5l80BZkzv_p",
 							"description": "Fresh Food",
 							"tags": [
-								"Supplies",
-								"Food"
+								"Food",
+								"Supplies"
 							],
 							"quantity": 1,
 							"equipped": true,
@@ -1634,8 +1652,8 @@
 									"description": "Fresh Food",
 									"local_notes": "A meal worth of fresh produce. Will spoil if not refrigerated.",
 									"tags": [
-										"Supplies",
-										"Food"
+										"Food",
+										"Supplies"
 									],
 									"base_value": "3",
 									"base_weight": "2",
